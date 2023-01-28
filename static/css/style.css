@@ -1,0 +1,43 @@
+.img{
+    width: 48px;
+    height: 48px;
+    border-radius: 30px;
+  }
+  body{
+  background-color: black;
+  }
+  .animation{
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    animation-name: myAnimation;
+    animation-duration: 3s;
+    background-image: url("/static/logo.png");
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  @keyframes myAnimation {
+  from{
+    background-color: white;
+    background-image: none;
+  }
+  33%{
+    border-radius: 30px;
+    background-color: white;
+    background-image: none;
+  }
+  66%{
+    border-radius: 12px;
+    background-color: white;
+    background-image: none;
+  }
+  to{
+    background-color: white;
+    border-radius: 5px;
+  }
+}
+
+ body{
+ background-color: black;
+ background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(120, 0, 0) 100%);
+ }
