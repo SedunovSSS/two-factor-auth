@@ -13,7 +13,6 @@ PORT = 5000
 DB_NAME = "sqlite:///database.db"
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = DB_NAME
-UPLOAD_FOLDER = './static/uploads'
 db = SQLAlchemy(app)
 
 sender_email = ""
